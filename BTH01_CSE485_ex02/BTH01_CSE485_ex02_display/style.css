@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,html {
+    height: 100%
+}
+
+#header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 32px;
+    background: #023b6d;
+    display: flex;
+    align-items: center
+}
+
+.logo img{
+    height: 100px;
+}
+
+.logo h1{
+    color: #1ed760;
+}
+
+#navbar ul li a{
+    font-weight: 500;
+}
+
+#carouselExampleIndicators {
+    height: 500px;
+}
+.carousel-inner .carousel-item img {
+    max-height: 500px;
+    /* Đặt độ cao tối đa cho ảnh */
+    width: auto;
+    /* Để tự động tính toán chiều rộng dựa trên độ cao */
+}
+
+.song img{
+    height: 200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.footer {
+    border-top: 2px solid;
+}
